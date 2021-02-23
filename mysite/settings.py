@@ -1,4 +1,4 @@
-import django_heroku
+import django_on_heroku
 """
 Django settings for mysite project.
 
@@ -121,4 +121,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-django_heroku.settings(locals())
+django_on_heroku.settings(locals())
